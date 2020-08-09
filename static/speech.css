@@ -1,0 +1,21 @@
+body {
+    background-color: #231929;
+    color: #ff66ff;
+    font-family: 'Liberation Mono';
+    font-size: 14pt;
+    text-align: center;
+}
+
+input {
+    font-size: 14pt;
+}
+
+#tosay {
+    width: 80%;
+ }
+
+#centerpane {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

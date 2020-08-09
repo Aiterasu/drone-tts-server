@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/speech.css">
+    </head>
+    <body>
+        <div id="centerpane">
+            <div>
+                ⬡ Remote
+                <form action="/say" method="post">
+                    <input type="text" id="tosay" name="tosay">
+                    <input type="submit" value="Submit">
+                </form>
+            {% if said is defined %}
+                <em>Said {{ said }}</em>
+            {% endif %}
+            </div>
+        </div>
+    </body>
+</html>
